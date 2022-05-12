@@ -14,7 +14,7 @@
 
 ## O que é o Ansible?
 
-  O Ansible é uma ferramenta open source para automação de processos manuais de TI como instalação de softwares, provisionamento de infraestrutura, compartilhamento de automação e configurações por uma mesma rede, etc.
+  O Ansible é uma ferramenta open source para automação de processos manuais de TI como instalação de softwares, provisionamento de infraestrutura, compartilhamento de automação e configurações através da mesma rede, etc.
 
 ## 
 
