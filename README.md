@@ -1,13 +1,12 @@
 # ansible-comunicacao-dados
-Projeto da disciplina de Comunicação de Dados para instalação de programas em múltiplos computadores através de um servidor.
-
+Projeto da disciplina de Comunicação de Dados para instalação de programas em múltiplos computadores através de um servidor utilizando o Ansible.
 
 ## Conteúdo
 
 1. [Introdução](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#introdu%C3%A7%C3%A3o)
 2. [O que é o Ansible?](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#o-que-%C3%A9-o-ansible)
 3.
-4. [Referências]()
+4. [Referências](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#refer%C3%AAncias)
 
 ## Introdução
 
