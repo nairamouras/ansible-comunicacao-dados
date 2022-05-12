@@ -6,7 +6,7 @@
 1. [Introdução](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#introdu%C3%A7%C3%A3o)
 2. [O que é o Ansible?](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#o-que-%C3%A9-o-ansible)
 3. [Ferramentas utilizadas](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#ferramentas-utilizadas)
-5. [Etapa 1: configurando o Linux e o Ansible]()
+5. [Etapa 1: configurando o Linux e o Ansible](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#etapa-1-configurando-o-servidor-linux-e-o-ansible)
 6. [Etapa 2:]()
 7. [Referências](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#refer%C3%AAncias)
 
