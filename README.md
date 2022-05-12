@@ -27,6 +27,7 @@
 
   - Para as máquinas Windows:
     - powershell 3+;
+    - chocolatey;
     - dot net 4
 
 ## Etapa 1: configurando o servidor Linux e o Ansible 
