@@ -23,16 +23,29 @@
   - Para o servidor Linux:
     - ansible;
     - python3-pip;
-    - pywinrm
+    - winrm
 
   - Para as máquinas Windows:
     - powershell 3+;
     - chocolatey;
+    - winrm;
     - dot net 4
 
-## Etapa 1: configurando o servidor Linux e o Ansible 
+## Etapa 1: configurando o servidor Linux
 
-## Etapa 2: 
+
+
+## Etapa 2: configurando as máquinas do laboratório
+
+  obs: a senha nao pode ser pin, deve ser alfanumerica 
+  
+  1 - download e instalação do chocolatey (chocolatey.org/install)
+  2 - download e instalação do WinRM ()
+    obs: para ambos, o download deve ser feito pelo powershell usando o administrador
+  3 -  
+
+
+
 
 
 ## Referências
