@@ -21,13 +21,13 @@
 ## Ferramentas utilizadas
 
   - Para o servidor Linux:
-    - Ansible;
+    - ansible;
     - python3-pip;
     - pywinrm
 
   - Para as máquinas Windows:
     - powershell 3+;
-    - Dot net 4
+    - dot net 4
 
 ## Etapa 1: configurando o servidor Linux e o Ansible 
 
