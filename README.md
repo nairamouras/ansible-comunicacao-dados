@@ -17,9 +17,9 @@
 
   O Ansible é uma ferramenta open source para automação de processos manuais de TI como instalação de softwares, provisionamento de infraestrutura, compartilhamento de automação e configurações através da mesma rede, etc.
 
-## Etapa 1: configurando o Linux 
+## Etapa 1: configurando o servidor Linux e o Ansible 
 
-## Etapa 2: 
+## Etapa 2:
 
 
 ## Referências
