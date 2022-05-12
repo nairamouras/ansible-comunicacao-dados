@@ -31,7 +31,7 @@
 
 ## Etapa 1: configurando o servidor Linux e o Ansible 
 
-## Etapa 2:
+## Etapa 2: 
 
 
 ## Referências
