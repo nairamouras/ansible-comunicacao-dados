@@ -22,6 +22,6 @@
 ## Referências
 
 RED HAT. ***O que é o Ansible?*** Disponível em: <<https://www.redhat.com/pt-br/technologies/management/ansible/what-is-ansible>>. 
-
+LINUX HELP. ***How to install an application on Windows by using Ansible playbook*** Disponível em: <<How to install an application on Windows by using Ansible playbook>>.
 
 
