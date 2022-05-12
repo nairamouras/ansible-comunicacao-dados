@@ -5,8 +5,9 @@
 
 1. [Introdução](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#introdu%C3%A7%C3%A3o)
 2. [O que é o Ansible?](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#o-que-%C3%A9-o-ansible)
-3.
-4. [Referências](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#refer%C3%AAncias)
+3. [Etapa 1: configurando o Linux]()
+4. [Etapa2:]()
+5. [Referências](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#refer%C3%AAncias)
 
 ## Introdução
 
@@ -16,7 +17,9 @@
 
   O Ansible é uma ferramenta open source para automação de processos manuais de TI como instalação de softwares, provisionamento de infraestrutura, compartilhamento de automação e configurações através da mesma rede, etc.
 
-## 
+## Etapa 1: configurando o Linux 
+
+## Etapa 2: 
 
 
 ## Referências
