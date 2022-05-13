@@ -28,16 +28,16 @@
   - Para as máquinas Windows:
     - powershell 3+;
     - chocolatey;
-    - winrm;
-    - dot net 4
+    - winrm
 
 ## Etapa 1: configurando o servidor Linux
 
+  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, virtual ou física, com o sistema operacional Linux para a função de servidor de rede do projeto. 
 
 
-## Etapa 2: configurando as máquinas do laboratório
+## Etapa 2: configurando as máquinas dos laboratórios
 
-  A etapa de configuração das máquinas
+  A segunda etapa consiste em configurar as máquinas dos laboratórios para realizar a conexão de rede com o servidor.
 
 
   obs: a senha nao pode ser pin, deve ser alfanumerica 
