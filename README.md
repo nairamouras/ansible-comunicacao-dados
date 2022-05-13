@@ -32,7 +32,7 @@
 
 ## Etapa 1: configurando o servidor Linux
 
-  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, física ou virtual, com o sistema operacional Linux para a função de servidor de rede do projeto.
+  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, física ou virtual, com o Sistema Operacional Linux para a função de servidor de rede do projeto.
   
   Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads) e siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/).
   
