@@ -53,3 +53,5 @@
 RED HAT. ***O que é o Ansible?*** Disponível em: <<https://www.redhat.com/pt-br/technologies/management/ansible/what-is-ansible>>
 
 LINUX HELP. ***How to install an application on Windows by using Ansible playbook.*** Disponível em: <<https://www.linuxhelp.com/how-to-install-an-application-on-windows-by-using-ansible-playbook>>
+
+ANSIBLE DOCUMENTATION. ***Setting up a Windows Host.*** Disponível em: <<https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html>>
