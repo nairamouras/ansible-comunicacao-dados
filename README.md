@@ -32,7 +32,9 @@
 
 ## Etapa 1: configurando o servidor Linux
 
-  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, virtual ou física, com o sistema operacional Linux para a função de servidor de rede do projeto.
+  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, física ou virtual, com o sistema operacional Linux para a função de servidor de rede do projeto.
+  
+  Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads) e siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/).
   
   Em seguida, é necessário fazer o download e instalação do Ansible.
 
@@ -60,3 +62,5 @@ RED HAT. ***O que é o Ansible?*** Disponível em: <<https://www.redhat.com/pt-b
 LINUX HELP. ***How to install an application on Windows by using Ansible playbook.*** Disponível em: <<https://www.linuxhelp.com/how-to-install-an-application-on-windows-by-using-ansible-playbook>>
 
 ANSIBLE DOCUMENTATION. ***Setting up a Windows Host.*** Disponível em: <<https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html>>
+
+
