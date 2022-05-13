@@ -1,5 +1,5 @@
 # ansible-comunicacao-dados
-  Projeto da disciplina de Comunicação de Dados para instalação de programas em múltiplos computadores através de um servidor utilizando o Ansible.
+  Projeto da disciplina de Comunicação de Dados para instalação de softwares em múltiplos computadores através de um servidor utilizando o Ansible.
 
 ## Conteúdo
 
@@ -32,7 +32,9 @@
 
 ## Etapa 1: configurando o servidor Linux
 
-  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, virtual ou física, com o sistema operacional Linux para a função de servidor de rede do projeto. 
+  A primeira etapa a ser realizada é a instalação e configuração de uma máquina, virtual ou física, com o sistema operacional Linux para a função de servidor de rede do projeto.
+  
+  Em seguida, é necessário fazer o download e instalação do Ansible.
 
 
 ## Etapa 2: configurando as máquinas dos laboratórios
