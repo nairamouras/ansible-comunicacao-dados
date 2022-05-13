@@ -37,6 +37,9 @@
 
 ## Etapa 2: configurando as máquinas do laboratório
 
+  A etapa de configuração das máquinas
+
+
   obs: a senha nao pode ser pin, deve ser alfanumerica 
   
   1 - download e instalação do chocolatey (chocolatey.org/install)
