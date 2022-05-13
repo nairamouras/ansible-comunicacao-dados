@@ -21,14 +21,14 @@
 ## Ferramentas utilizadas
 
   - Para o servidor Linux:
-    - ansible;
-    - python3-pip;
-    - winrm
+    - Ansible;
+    - Python3-pip;
+    - WinRM
 
   - Para as máquinas Windows:
-    - powershell 3+;
-    - chocolatey;
-    - winrm
+    - PowerShell;
+    - Chocolatey;
+    - WinRM
 
 ## Etapa 1: configurando o servidor Linux
 
@@ -36,20 +36,14 @@
   
   Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads) e siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/).
   
-  Em seguida, é necessário fazer o download e instalação do Ansible.
+  Em seguida,
 
 
 ## Etapa 2: configurando as máquinas dos laboratórios
 
-  A segunda etapa consiste em configurar as máquinas dos laboratórios para realizar a conexão de rede com o servidor.
-
-
-  obs: a senha nao pode ser pin, deve ser alfanumerica 
+  A segunda etapa consiste em configurar as máquinas dos laboratórios para realizar a conexão de rede com o servidor já criado.
   
-  1 - download e instalação do chocolatey (chocolatey.org/install)
-  2 - download e instalação do WinRM ()
-    obs: para ambos, o download deve ser feito pelo powershell usando o administrador
-  3 -  
+  Para tanto, inicia-se realizando o download e instalação do [chocolatey](chocolatey.org/install) e do WinRM por meio do PowerShell usando o administrador da máquina.
 
 
 
