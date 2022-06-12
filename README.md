@@ -39,7 +39,7 @@
   wsl --install -d ubuntu	
   ```
 
-  O próximo passo é preparar o Windows da máquina. Para tanto, abra novamente o PowerShell e execute:
+  O próximo passo é preparar o Windows da máquina. Para tanto, execute no PowerShell:
   
   ```
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
