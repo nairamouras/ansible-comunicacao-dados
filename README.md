@@ -1,7 +1,5 @@
 # :desktop_computer: ansible-comunicacao-dados
   Projeto da disciplina de Comunicação de Dados para instalação de softwares em múltiplos computadores através de um servidor utilizando o Ansible.
-  
-  *Ainda não finalizado*
 
 ## Conteúdo
 
