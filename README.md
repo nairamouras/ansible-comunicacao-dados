@@ -8,8 +8,7 @@
 1. [Introdução](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#introdu%C3%A7%C3%A3o)
 2. [O que é o Ansible?](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#o-que-%C3%A9-o-ansible)
 3. [Ferramentas utilizadas](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#ferramentas-utilizadas)
-5. [Etapa 1: configurando o Linux e o Ansible](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#etapa-1-configurando-o-servidor-linux-e-o-ansible)
-6. [Etapa 2:]()
+5. [Passo a passo da configuração](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#passo-a-passo-da-configuração)
 7. [Referências](https://github.com/nairamouras/ansible-comunicacao-dados/blob/main/README.md#refer%C3%AAncias)
 
 ## Introdução
@@ -30,31 +29,81 @@
   - Para as máquinas Windows:
     - PowerShell;
     - Chocolatey;
-    - WinRM
 
-## Etapa 1: configurando o servidor Linux
+## Passo a passo da configuração
 
   A primeira etapa a ser realizada é a instalação e configuração de uma máquina, física ou virtual, com o Sistema Operacional Linux para a função de servidor de rede do projeto.
   
-  Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads) e siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/), ou se preferir, há também a opção de virtualização nativa para o Windows. Para isso, abra o PowerShell como administrador e insira os seguintes comandos:
+  Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads), siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/), ou se preferir, há também a opção de virtualização nativa para o Windows. Para isso, abra o PowerShell como administrador e insira os seguintes comandos:
   
   ```
   wsl -l -v
   wsl --install -d ubuntu	
   ```
+
+  O próximo passo é preparar o Windows da máquina. Para tanto, abra novamente o PowerShell e execute:
   
-  Em seguida,
-
-
-## Etapa 2: configurando as máquinas dos laboratórios
-
-  A segunda etapa consiste em configurar as máquinas dos laboratórios para realizar a conexão de rede com o servidor já criado.
+  ```
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  ```
   
-  Para tanto, inicia-se realizando o download e instalação do [chocolatey](chocolatey.org/install) e do WinRM por meio do PowerShell usando o administrador da máquina.
+  Com o Linux instalado, abra o terminal e inicie a instalação do Ansible e do gerenciador de pacotes pip:
+ 
+ ```
+ sudo apt update
+ sudo apt install software-properties-common
+ sudo add-apt-repository --yes --update ppa:ansible/ansible
+ sudo apt install ansible
+ ```
+ 
+ ```
+ yum install ansible -y
+ ```
+ 
+ ```
+ sudo apt update
+ sudo apt install python3-venv python3-pip
+ ```
+ 
+  Em seguida, abra o editor de texto para editar o arquivo de host:
 
+```
+ vi /etc/ansible/hosts
+```
 
+```
+ hosts: windows
+  gather_facts: true
+  tasks:
+   name: Install firefox
+    win_chocolatey:
+     name: firefox
+     state: present
+```
 
+Agora, em um outro computador, verifique o seu ip no terminal:
 
+```
+ip addr show / ipconfig
+```
+
+Por fim, volte para a máquina de servidor e abra o arquivo install.yml com o editor de texto:
+
+```
+vi install.yml
+```
+
+```
+[windows]
+10.99.103.163
+
+[windows:vars]
+ansible_user="Conta123"
+ansible_password="senha123"
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation= ignore
+```
 
 ## Referências
 
