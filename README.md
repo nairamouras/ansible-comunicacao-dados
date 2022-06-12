@@ -38,8 +38,10 @@
   
   Caso seja utilizada uma máquina virtual, faça o download e instalação do [Virtual Box](https://www.virtualbox.org/wiki/Downloads) e siga as instruções deste [link](https://canaltech.com.br/software/como-criar-uma-maquina-virtual-com-o-virtualbox/), ou se preferir, há também a opção de virtualização nativa para o Windows. Para isso, abra o PowerShell como administrador e insira os seguintes comandos:
   
+  ```
   wsl -l -v
   wsl --install -d ubuntu	
+  ```
   
   Em seguida,
 
